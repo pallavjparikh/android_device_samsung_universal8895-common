@@ -84,6 +84,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 # A list of dpis to select prebuilt apk, in precedence order.
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
+# Libnl.so for wifi
+PRODUCT_PACKAGES += \
+    libnl
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.universal8895 \
